@@ -313,6 +313,7 @@ img {
   padding-top: 0;
 }
 
+
 .team-box {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -320,7 +321,8 @@ img {
 
 .team-item {
   margin-right: 30px;
-
+  background-color: var(--main-bg-color);
+  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -349,6 +351,35 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* *Social-icons */
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-item {
+  margin-top: 16px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.socials-item:last-child {
+  margin-right: 0;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background-color: #FFF;
+  border-radius: 50%;
 }
 
 /* *Footer* */
