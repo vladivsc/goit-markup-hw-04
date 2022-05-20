@@ -125,6 +125,10 @@ img {
   margin-left: 50px;
 }
 
+.navigation-item:first-child {
+  margin-left: 93px;
+}
+
 .navigation-contacts {
   display: flex;
   align-items: center;
